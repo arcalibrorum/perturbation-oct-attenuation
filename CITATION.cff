@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying manuscript."
+title: "Perturbation-Based OCT Attenuation Reconstruction"
+type: software
+version: 0.1.0
+license: BSD-3-Clause
+authors:
+  - family-names: Yu
+    given-names: Jinglun
+  - family-names: Wang
+    given-names: Yaning
+  - family-names: Wei
+    given-names: Shuwen
+  - family-names: Kang
+    given-names: Jin Ung
+preferred-citation:
+  type: article
+  title: "Perturbation-Based Reconstruction of Depth-Resolved OCT Attenuation without Requiring a Fully Decayed Signal Tail"
+  authors:
+    - family-names: Yu
+      given-names: Jinglun
+    - family-names: Wang
+      given-names: Yaning
+    - family-names: Wei
+      given-names: Shuwen
+    - family-names: Kang
+      given-names: Jin Ung

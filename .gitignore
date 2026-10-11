@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+.DS_Store
+.venv/
+venv/
+build/
+dist/
+output/
+*.asv
+*.autosave

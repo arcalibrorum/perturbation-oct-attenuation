@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "octattenuation"
+version = "0.1.0"
+description = "Perturbation-based reconstruction of depth-resolved OCT attenuation"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "BSD-3-Clause"}
+authors = [
+  {name = "Jinglun Yu"},
+  {name = "Yaning Wang"},
+  {name = "Shuwen Wei"},
+  {name = "Jin Ung Kang"},
+]
+dependencies = ["numpy>=1.23"]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.7"]
+test = []
+
+[tool.setuptools]
+package-dir = {"" = "python/src"}
+
+[tool.setuptools.packages.find]
+where = ["python/src"]
